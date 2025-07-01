@@ -86,18 +86,3 @@ console.log(nama); // ✅ Tapi bisa diakses (global)
 let angka = 10;
 console.log(angka); // Output: 10
 ```
-
----
-
-#### 📌 Ringkasan Perbandingan
-
-| Fitur          | `var`          | `let`       | `const`     |
-| -------------- | -------------- | ----------- | ----------- |
-| Dapat diubah   | ✅              | ✅           | ❌           |
-| Hoisting       | ✅              | ❌           | ❌           |
-| Scope          | Function Scope | Block Scope | Block Scope |
-| Global Binding | ✅              | ❌           | ❌           |
-
----
-
-Semoga catatan ini membantumu memahami variabel di JavaScript dengan lebih baik! 💡
